@@ -36,7 +36,7 @@
     font-size: 35px;
     font-weight: bold;
     font-style: normal;
-    padding-bottom: 3px;
+    padding-bottom: 10px;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
@@ -56,7 +56,7 @@
     line-height: normal;
     letter-spacing: normal;
     color: #525252;
-    padding: 0px 0 10px;
+    padding: 0px 0 13px;
   }
   .logo{
     margin: auto;

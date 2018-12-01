@@ -146,6 +146,10 @@
   }
   .hero {
     margin-top: 30px;
+    background-image: url(group.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
   }
   .hero img {
     width: 100%;

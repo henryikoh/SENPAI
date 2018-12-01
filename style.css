@@ -33,10 +33,10 @@
     /* text-align: center; */
     font-family: Montserrat;
     /* responsive font size */
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     font-style: normal;
-    padding-bottom: 9px;
+    padding-bottom: 3px;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
@@ -60,11 +60,11 @@
   }
   .logo{
     margin: auto;
-    width: 130px;
+    width: 110px;
     padding-bottom: 9px;
   } 
   .center{
-    text-align: center;
+    /* text-align: center; */
     margin: auto;
   }
   .cta-btn a{
@@ -97,14 +97,14 @@
     background-size: 0 100%;
   }
   .social{
-    text-align: center;
+    /* text-align: center; */
     padding-top: 12px;
   }
   .social li{
     display: inline-block;
-      list-style-type: decimal;
-      text-align: center;
-      margin-left: 10px;
+    list-style-type: decimal;
+    text-align: center;
+    margin-right: 3px;
   }
   .social li svg{
     height: 20px;

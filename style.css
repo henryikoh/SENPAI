@@ -328,6 +328,32 @@
     color: #ffffff;
     box-sizing: border-box;
   }
+  .do-else {
+        /* background-color: #41c0bf; */
+        position: relative;
+        /* padding-top: 20px; */
+        margin-top: 20px;
+  }
+  .do-else div {
+    background-color: #41c0bf;
+    height: 100%;
+    width: 20px;
+    position: absolute;
+  }
+  .do-else h1 {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+    /* padding-bottom: 17px; */
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding-left: 31px;
+    color: #525252;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   .white-space {
     height: 300px;
   }

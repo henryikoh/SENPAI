@@ -1,3 +1,68 @@
+#logo-bot{
+  fill:none;
+  animation:logo-bot;
+  animation-duration: 8s;
+  fill:none;
+  animation-fill-mode: forwards;
+  animation-delay: 2s
+
+}
+#logo-stroke{
+  stroke: #525252;
+  stroke-width: 13.6338;
+  stroke-miterlimit:10;
+  fill: none;
+  animation-name: logo-stroke;
+  animation-duration: 4s;
+  animation-delay: 2s
+
+}
+
+
+#logo-top{
+  animation:logo-top;
+  animation-duration: 8s;
+  fill:none;
+  animation-fill-mode: forwards;
+  animation-delay: 2s
+
+
+}
+
+@keyframes logo-top {
+  66%{fill:none}
+  67%{fill:#41C0BF}
+
+  100%{fill:#41C0Bf}
+}
+@keyframes logo-bot {
+  66%{fill:none}
+  67%{fill:white}
+
+  100%{fill:white}
+}
+.logo-stroke{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1100;
+  animation: logo-stroke 10s linear forwards;
+  stroke: #525252;
+  stroke-width: 13.6338;
+  stroke-miterlimit:10;
+  fill: none;
+  animation-delay: 2s
+
+
+}
+
+@keyframes logo-stroke{
+
+
+    to {
+      stroke-dashoffset:50;
+
+    }
+  }
+
 @media screen and (max-width: 768px){
 
 

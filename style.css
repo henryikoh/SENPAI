@@ -295,10 +295,9 @@
     color: #525252;
   }
   .contact {
-    padding-top: 20px;
     text-align: center;
     background-color: #41C0BF;
-    padding: 30px;
+    padding: 35px 10px;
     margin-top: 25px;
   }
   .contact p {
@@ -306,7 +305,7 @@
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;

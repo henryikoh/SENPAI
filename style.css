@@ -174,7 +174,22 @@
     font-size: 17px;
     font-weight: 500;
     font-style: normal;
-    padding-bottom: 8px;
+    padding-bottom: 15px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+  }
+  .we-do ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  .we-do ul li {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 10px;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
@@ -191,7 +206,7 @@
     letter-spacing: normal;
     color: #41c0bf;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 30px;
   }
   .discovery {
     padding-top: 40px;

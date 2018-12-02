@@ -1,7 +1,7 @@
 #logo-bot{
   fill:none;
   animation:logo-bot;
-  animation-duration: 3.5s;
+  animation-duration: 4.2s;
   fill:none;
   animation-fill-mode: forwards;
   animation-delay: 1s
@@ -12,13 +12,14 @@
 
 #logo-top{
   animation:logo-top;
-  animation-duration: 3.5s;
+  animation-duration: 4.2s;
   fill:none;
   animation-fill-mode: forwards;
   animation-delay: 1s
 
 
 }
+
 
 @keyframes logo-top {
   66%{fill:none}
@@ -35,7 +36,7 @@
 .logo-stroke{
   stroke-dasharray: 1000;
   stroke-dashoffset: 1100;
-  animation: logo-stroke 10s cubic-bezier(0.13, 0.18, 0.31, 1.16) forwards;
+  animation: logo-stroke 12s cubic-bezier(0.13, 0.18, 0.31, 1.16) forwards;
   stroke: #525252;
   stroke-width: 13.6338;
   stroke-miterlimit:10;

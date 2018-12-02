@@ -298,14 +298,15 @@
     padding-top: 20px;
     text-align: center;
     background-color: #41C0BF;
-    padding: 20px;
+    padding: 30px;
+    margin-top: 25px;
   }
   .contact p {
     font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     font-style: normal;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
@@ -318,8 +319,15 @@
     padding: 7px 15px;
     display: inline-block;
     border-radius: 5px;
-    /* width: 100%; */
-    box-sizing: border-box
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    box-sizing: border-box;
   }
   .white-space {
     height: 300px;

@@ -307,12 +307,12 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #525252;
+    color: #ffffff;
   }
   .contact a {
     text-decoration: none;
-    border: solid 1px #525252;
-    color: #525252;
+    border: solid 1px #ffffff;
+    color: #ffffff;
     padding: 7px 15px;
     display: inline-block;
     border-radius: 5px;

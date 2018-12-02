@@ -297,6 +297,8 @@
   .contact {
     padding-top: 20px;
     text-align: center;
+    background-color: #41C0BF;
+    padding: 20px;
   }
   .contact p {
     font-family: Montserrat;

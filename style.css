@@ -332,7 +332,7 @@
         /* background-color: #41c0bf; */
         position: relative;
         /* padding-top: 20px; */
-        margin-top: 15px;
+        margin-top: 10px;
   }
   .do-else div {
     background-color: #41c0bf;
@@ -353,6 +353,13 @@
     color: #525252;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .impact {
+    margin-top: 30px;
+    background-image: url(teach.jpeg);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
   }
   .white-space {
     height: 300px;

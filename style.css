@@ -414,7 +414,7 @@
   }
   .closer-text p {
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     font-style: normal;
     padding-bottom: 10px;
@@ -426,8 +426,8 @@
   }
   .closer-text a {
     text-decoration: none;
-    color: white;
-    background-color: #41c0bf;
+    color: #41C0BF;
+
   }
   .white-space {
     height: 300px;

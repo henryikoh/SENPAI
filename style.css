@@ -368,6 +368,19 @@
   .blog {
     padding-top: 20px;
   }
+  .social2 {
+    text-align: center;
+    padding-top: 40px;
+  }
+  .social2 li {
+    display: inline-block;
+    list-style-type: decimal;
+    text-align: center;
+    margin-right: 15px;
+  }
+  .social2 li svg {
+    height: 40px;
+  }
   .white-space {
     height: 300px;
   }

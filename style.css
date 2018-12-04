@@ -424,6 +424,11 @@
     color: #525252;
     /* padding-right: 71px; */
   }
+  .closer-text a {
+    text-decoration: none;
+    color: white;
+    background-color: #41c0bf;
+  }
   .white-space {
     height: 300px;
   }

@@ -265,7 +265,7 @@
     padding-top: 30px;
   }
   .discovery {
-    padding-top: 40px;
+    padding-top: 45px;
   }
   .discovery-illus {
     width: 240px;
@@ -274,7 +274,7 @@
   }
   .discovery-text {
     border-bottom: solid 1px #41c0bf;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
   }
   .discovery-text h1 {
     font-family: Montserrat;
@@ -378,8 +378,44 @@
     text-align: center;
     margin-right: 15px;
   }
+  .social2 li:last-child {
+    margin-right: 0
+  }
   .social2 li svg {
     height: 40px;
+  }
+  .closer {
+    padding-top: 40px;
+  }
+  .illust {
+    width: 220px;
+    margin: auto;
+  }
+  .closer-text h1 {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    /* padding-bottom: 17px; */
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    /* padding-left: 31px; */
+    color: #525252;
+    /* padding-top: 10px; */
+    padding-bottom: 5px;
+  }
+  .closer-text p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 10px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+    /* padding-right: 71px; */
   }
   .white-space {
     height: 300px;

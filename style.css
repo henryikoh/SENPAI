@@ -272,6 +272,10 @@
     margin: auto;
     padding-bottom: 20px;
   }
+  .discovery-text {
+    border-bottom: solid 5px #41c0bf;
+    padding-bottom: 10px;
+  }
   .discovery-text h1 {
     font-family: Montserrat;
     font-size: 30px;

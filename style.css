@@ -368,9 +368,16 @@
   .blog {
     padding-top: 20px;
   }
+  .social-cta2 {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: solid 1px #525252;
+    border-top: solid 1px #525252;
+  }
   .social2 {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 10px;
   }
   .social2 li {
     display: inline-block;
@@ -393,7 +400,7 @@
   }
   .closer-text h1 {
     font-family: Montserrat;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 600;
     font-style: normal;
     /* padding-bottom: 17px; */

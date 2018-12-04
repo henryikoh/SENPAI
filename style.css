@@ -124,24 +124,24 @@
     margin: auto;
   }
   .cta-btn a{
-    display: inline-block;
-    text-decoration: none;
-    /* width: 210px; */
-    /* height: 43px; */
-    /* border-radius: 10px; */
-    border-bottom: solid 5px #41c0bf;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #525252;
-    padding: 2px 0px;
-    background-size:  0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 0.4s ease;
+        /* display: inline-block; */
+        text-decoration: none;
+        /* width: 210px; */
+        /* height: 43px; */
+        /* border-radius: 10px; */
+        border-bottom: solid 5px #41c0bf;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 30px;
+        letter-spacing: normal;
+        color: #525252;
+        padding: 2px 0px;
+        background-size: 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.4s ease;
   }
 
   .cta-btn a:hover{
@@ -360,6 +360,9 @@
     height: 200px;
     background-position: center;
     background-size: cover;
+  }
+  .blog {
+    padding-top: 15px;
   }
   .white-space {
     height: 300px;

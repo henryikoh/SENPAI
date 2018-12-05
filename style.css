@@ -265,7 +265,7 @@
     padding-top: 30px;
   }
   .discovery {
-    padding-top: 45px;
+    padding-top: 50px;
   }
   .discovery-illus {
     width: 240px;
@@ -274,7 +274,7 @@
   }
   .discovery-text {
     border-bottom: solid 1px #41c0bf;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
   }
   .discovery-text h1 {
     font-family: Montserrat;
@@ -302,7 +302,7 @@
     text-align: center;
     background-color: #41C0BF;
     padding: 35px 10px;
-    margin-top: 25px;
+    /* margin-top: 25px; */
   }
   .contact p {
     font-family: Montserrat;
@@ -364,6 +364,17 @@
     height: 200px;
     background-position: center;
     background-size: cover;
+  }
+  .impact-prog h1 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    padding-bottom: 5px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
   }
   .blog {
     padding-top: 20px;

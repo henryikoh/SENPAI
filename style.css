@@ -365,10 +365,24 @@
     background-position: center;
     background-size: cover;
   }
+  .impact-prog {
+    padding-top: 20px;
+  }
   .impact-prog h1 {
     font-family: Montserrat;
     font-size: 20px;
     font-weight: bold;
+    font-style: normal;
+    padding-bottom: 5px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+  }
+  .impact-prog p {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
     font-style: normal;
     padding-bottom: 5px;
     font-stretch: normal;

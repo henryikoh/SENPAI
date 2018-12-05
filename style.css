@@ -366,11 +366,11 @@
     background-size: cover;
   }
   .impact-prog {
-    padding-top: 20px;
+    padding-top: 35px;
     list-style-type: none;
   }
   .impact-prog li {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
   .impact-prog li h1 {
     font-family: Montserrat;

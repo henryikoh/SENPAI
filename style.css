@@ -366,12 +366,13 @@
     background-size: cover;
   }
   .impact-prog {
-    padding-top: 35px;
+    padding-top: 5px;
     list-style-type: none;
   }
   .impact-prog li {
     padding-bottom: 10px;
     padding-top: 20px;
+    border-bottom: solid 1px #525252;
   }
   .impact-prog li h1 {
     font-family: Montserrat;
@@ -396,7 +397,7 @@
     color: #525252;
   }
   .blog {
-    padding-top: 10px;
+    padding-top: 25px;
   }
   .social-cta2 {
     margin-top: 40px;

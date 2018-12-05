@@ -370,7 +370,8 @@
     list-style-type: none;
   }
   .impact-prog li {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 20px;
   }
   .impact-prog li h1 {
     font-family: Montserrat;

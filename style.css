@@ -336,7 +336,7 @@
         /* background-color: #41c0bf; */
         position: relative;
         /* padding-top: 20px; */
-        margin-top: 10px;
+        
   }
   .do-else div {
     background-color: #41c0bf;
@@ -424,7 +424,7 @@
   }
   .closer {
     padding-top: 45px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
   .illust {
     width: 220px;

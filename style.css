@@ -423,7 +423,7 @@
     height: 40px;
   }
   .closer {
-    padding-top: 45px;
+    padding-top: 55px;
     padding-bottom: 40px;
   }
   .illust {
@@ -798,7 +798,7 @@
     grid-gap: 50px;
   }
   .impact-prog li {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     padding-top: 20px;
     /* padding: 20px; */
     border-bottom: solid 1px #cccccc;

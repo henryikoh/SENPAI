@@ -526,7 +526,7 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #000000;
+    color: #525252;
     padding: 0px 0 10px;
   }
   .logo{
@@ -720,6 +720,60 @@
     letter-spacing: normal;
     color: #525252;
   }
+  .work {
+    width: 85%;
+    margin: auto;
+    padding-bottom: 60px;
+  }
+  .work h1 {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 8px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #41c0bf;
+    padding-top: 45px;
+    text-align: center;
+  }
+  .works {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    padding-top: 45px;
+  }
+  .work1 div img {
+    width: 100%;
+  }
+  .work1 h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    /* padding-bottom: 5px; */
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+    text-align: left;
+    padding: 0;
+  }
+  .work1 {
+    padding-bottom: 40px;
+  }
+  .work1 p {
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+    /* padding-bottom: 5px; */
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #41c0bf;
+  }
   .contact {
     text-align: center;
     background-color: #41C0BF;
@@ -727,6 +781,7 @@
     /* margin-top: 25px; */
     width: 85%;
     margin: auto;
+    box-sizing: border-box;
   }
   .contact p {
     font-family: Montserrat;

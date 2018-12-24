@@ -298,6 +298,54 @@
     letter-spacing: normal;
     color: #525252;
   }
+  .work {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  .work h1 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 8px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #41c0bf;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .works {
+    padding-top: 25px;
+  }
+  .work1 div img {
+    width: 100%;
+  }
+  .work1 h1 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 5px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+    padding-bottom: 0;
+    text-align: left;
+  }
+  .work1 p {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 5px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #41c0bf;
+  }
   .contact {
     text-align: center;
     background-color: #41C0BF;
@@ -749,7 +797,7 @@
   }
   .work1 h1 {
     font-family: Montserrat;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     font-style: normal;
     /* padding-bottom: 5px; */

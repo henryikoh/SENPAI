@@ -460,6 +460,7 @@
     display: inline-block;
     margin-right: 20px;
     width: 25%;
+    vertical-align: top;
   }
   .sdg ul :last-child {
     margin-right: 0;

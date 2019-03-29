@@ -326,6 +326,39 @@
     letter-spacing: normal;
     color: #525252;
   }
+  .discovery2 {
+    padding-top: 60px;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .discovery-text2 {
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+    border-bottom: none;
+  }
+  .discovery-text2 h1 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    padding-bottom: 20px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+  }
+  .discovery-text2 p {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 5px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+  }
   .work {
     width: 90%;
     margin: auto;
@@ -904,6 +937,42 @@
     color: #525252;
   }
   .discovery-text p {
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 5px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+  }
+  .discovery2 {
+    padding-top: 45px;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 70px;
+  }
+  .discovery-text2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* grid-area: 1; */
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    border-bottom: none;
+  }
+  .discovery-text2 h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    padding-bottom: 20px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #525252;
+  }
+  .discovery-text2 p {
     font-family: Montserrat;
     font-size: 19px;
     font-weight: 400;

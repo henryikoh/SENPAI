@@ -326,8 +326,14 @@
     letter-spacing: normal;
     color: #525252;
   }
+  .plus {
+    height: 40px;
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+  }
   .discovery2 {
-    padding-top: 60px;
+    padding-top: 40px;
     grid-template-columns: 1fr 1fr;
     
   }
@@ -339,14 +345,15 @@
   }
   .discovery-text2 h1 {
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     font-style: normal;
-    padding-bottom: 20px;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
     color: #525252;
+    border: solid;
+    padding: 10px;
   }
   .discovery-text2 p {
     font-family: Montserrat;
@@ -947,6 +954,11 @@
     letter-spacing: normal;
     color: #525252;
   }
+  .plus { 
+    height: 70px;
+    display: block;
+    margin: auto;
+  }
   .discovery2 {
     padding-top: 45px;
     grid-template-columns: 1fr 1fr;
@@ -957,7 +969,7 @@
     padding-top: 20px;
     /* grid-area: 1; */
     text-align: center;
-    width: 80%;
+   
     margin: auto;
     border-bottom: none;
   }
@@ -966,11 +978,13 @@
     font-size: 40px;
     font-weight: bold;
     font-style: normal;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
     color: #525252;
+    border: solid;
+    padding: 10px;
   }
   .discovery-text2 p {
     font-family: Montserrat;

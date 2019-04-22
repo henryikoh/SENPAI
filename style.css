@@ -85,7 +85,7 @@
   }
 
   .landing nav {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
   }
   .landing nav ul {
     text-align: center;
@@ -119,7 +119,7 @@
   .podcast {
     width: 12px;
     display: inline-block;
-    padding-right: 2px;
+    padding-right: 5px;
   }
 
   .landing-page h1{

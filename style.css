@@ -76,7 +76,7 @@
     max-width: 1440px;
   }
   .landing{
-   padding-top: 30px;
+   padding-top: 14px;
   }
 
   .landing-page{
@@ -85,7 +85,7 @@
   }
 
   .landing nav {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
   .landing nav ul {
     text-align: center;
@@ -96,14 +96,17 @@
     width: 100%;
   }
   .landing nav ul li a {
+    display: inline-flex;
+    /* text-align: center; */
+    align-items: center;
     text-decoration: none;
-    color: #41c0bf;
+    color: #525252;
     /* background-color: #41c0bf; */
-    border: solid 3px;
+    /* border: solid 3px; */
     padding: 12px 15px;
     box-sizing: border-box;
-    display: inline-block;
-    width: 100%;
+    /* display: inline-block; */
+    /* width: 100%; */
     font-family: Montserrat,Helvetica, Arial, sans-serif;
     /* font-size: 2vw; */
     font-weight: normal;
@@ -111,6 +114,12 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
+  }
+  
+  .podcast {
+    width: 20px;
+    display: inline-block;
+    padding-right: 10px;
   }
 
   .landing-page h1{
@@ -702,7 +711,7 @@
   .landing{
     /* height: 85vh; */
     /* display: flex; */
-    padding-top: 60px;
+    padding-top: 25px;
   }
   .landing nav {
     padding-bottom: 40px;
@@ -716,20 +725,28 @@
   }
   .landing nav ul li a {
     text-decoration: none;
-    color: #41c0bf;
+    color: #2d1305;
     /* background-color: #41c0bf; */
-    border: solid 3px;
-    padding: 12px 15px;
+    border: solid 1px grey;
+    padding: 7px 15px;
     box-sizing: border-box;
     display: inline-block;
     /* width: 100%; */
     font-family: Montserrat,Helvetica, Arial, sans-serif;
     /* font-size: 2vw; */
     font-weight: normal;
+    border-radius: 5px;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
+    display: flex;
+    align-items: center;
+  }
+  .podcast {
+    width: 20px;
+    display: inline-block;
+    padding-right: 10px;
   }
   .landing-page{
     align-self: center;

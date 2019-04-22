@@ -102,13 +102,13 @@
     text-decoration: none;
     color: #525252;
     /* background-color: #41c0bf; */
-    /* border: solid 3px; */
-    padding: 12px 15px;
+    padding: 7px 15px;
     box-sizing: border-box;
-    /* display: inline-block; */
-    /* width: 100%; */
+    border-radius: 5px;
+    border: solid 1px grey;
     font-family: Montserrat,Helvetica, Arial, sans-serif;
     /* font-size: 2vw; */
+    font-size: 12px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -117,9 +117,9 @@
   }
   
   .podcast {
-    width: 20px;
+    width: 12px;
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 2px;
   }
 
   .landing-page h1{

@@ -73,7 +73,7 @@
   .wrapper{
     margin: auto;
     width: 90%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
   }
   .landing{
    padding-top: 14px;
@@ -549,11 +549,31 @@
     background-image: url(/assets/sdg11.png);
   }
   .impact {
+    position: relative;
     margin-top: 30px;
-    background-image: url(teach.jpeg);
+    background: linear-gradient( #41c0bf00, #0000009e ),url(teach.jpeg);
     height: 200px;
     background-position: center;
     background-size: cover;
+
+  }
+  .impact h1 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    width: 80%;
+    color: #ffffff;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
   }
   .impact-prog {
     padding-top: 5px;
@@ -706,7 +726,7 @@
   .wrapper{
     margin: auto;
     width: 85%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
   }
   .landing{
     /* height: 85vh; */
@@ -1197,11 +1217,30 @@
     background-image: url(/assets/sdg11.png);
   }
   .impact {
+    position: relative;
     margin-top: 55px;
-    background-image: url(teach.jpeg);
+    background: linear-gradient( #41c0bf00, #0000009e ),url(teach.jpeg);
     height: 500px;
     background-position: center;
     background-size: cover;
+   
+  }
+  .impact h1 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    width: 80%;
+    color: #ffffff;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .impact-prog {
     padding-top: 30px;

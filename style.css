@@ -566,6 +566,7 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
+    z-index: 1;
     width: 80%;
     color: #ffffff;
     margin: 0;
@@ -1234,6 +1235,7 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
+    z-index: 1;
     width: 80%;
     color: #ffffff;
     margin: 0;

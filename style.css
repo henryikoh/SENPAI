@@ -551,7 +551,7 @@
   .impact {
     position: relative;
     margin-top: 30px;
-    background: linear-gradient( #ffffff00, #0000009e ),url(teach.jpeg);
+    background: linear-gradient( #08080800, #0000009e ),url(teach.jpeg);
     height: 200px;
     background-position: center;
     background-size: cover;
@@ -1219,7 +1219,7 @@
   .impact {
     position: relative;
     margin-top: 55px;
-    background: linear-gradient( #ffffff00, #0000009e ),url(teach.jpeg);
+    background: linear-gradient( #08080800, #0000009e ),url(teach.jpeg);
     height: 500px;
     background-position: center;
     background-size: cover;

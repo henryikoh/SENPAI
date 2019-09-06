@@ -757,8 +757,8 @@
   }
   .menu li a {
     text-decoration: none;
-    color: black;
-    font-weight: 200;
+    /* color: black;
+    font-weight: 200; */
     text-transform: uppercase;
     font-size: 1.1vw;
   }

@@ -87,10 +87,10 @@ export default {
 		'@nuxtjs/pwa',
 		'@nuxtjs/dotenv',
 	],
-	server: {
-		port: 8000, // default: 3000
-		host: '0.0.0.0', // default: localhost
-	},
+	// server: {
+	// 	port: 8000, // default: 3000
+	// 	host: '0.0.0.0', // default: localhost
+	// },
 	/*
 	 ** Axios module configuration
 	 ** See https://axios.nuxtjs.org/options
@@ -152,7 +152,7 @@ export default {
 			]).then(([posts]) => {
 				return [
 					...posts.items.map(
-						entry => `/${entry.fields.type}/${entry.fields.slug}`,
+						entry => `/${entry.fields.type}/${entry.fields.slug}/`,
 					),
 				] // in the template
 			})

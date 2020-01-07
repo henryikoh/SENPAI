@@ -100,24 +100,24 @@ export default {
 	/*
 	 ** Build configuration
 	 */
-	workbox: {
-		runtimeCaching: [
-			{
-				urlPattern: 'https://cdn.contentful.com/.*',
-				method: 'GET',
-				strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
-			},
-			{
-				urlPattern: 'https://fonts.gstatic.com/.*',
-				handler: 'cacheFirst',
-				method: 'GET',
-				strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
-			},
-			{
-				urlPattern: 'https://api.instagram.com/.*',
-			},
-		],
-	},
+	// workbox: {
+	// 	runtimeCaching: [
+	// 		{
+	// 			urlPattern: 'https://cdn.contentful.com/.*',
+	// 			method: 'GET',
+	// 			strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
+	// 		},
+	// 		{
+	// 			urlPattern: 'https://fonts.gstatic.com/.*',
+	// 			handler: 'cacheFirst',
+	// 			method: 'GET',
+	// 			strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
+	// 		},
+	// 		{
+	// 			urlPattern: 'https://api.instagram.com/.*',
+	// 		},
+	// 	],
+	// },
 	build: {
 		/*
 		 ** You can extend webpack config here

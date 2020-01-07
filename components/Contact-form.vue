@@ -189,7 +189,7 @@ export default {
 			this.form = true
 		},
 		hideform(e) {
-			console.log(e.target.className)
+			// console.log(e.target.className)
 			if (e.target.className === 'form-modal') {
 				this.form = false
 				setTimeout(() => {

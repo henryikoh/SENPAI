@@ -205,7 +205,9 @@ export default {
 					post: entries.items[0],
 				}
 			})
-			.catch(console.error)
+			.catch((err)=>{
+			return err
+			})
 	},
 }
 </script>

@@ -1523,7 +1523,7 @@ export default {
 	methods: {
 		showtooltip(e) {
 			// e.target.previousElementSibling.style.display = 'block'
-			console.log(e)
+			// console.log(e)
 		},
 		hidetooltip() {},
 		handleScroll(e) {

@@ -102,11 +102,11 @@ export default {
 	 */
 	workbox: {
 		runtimeCaching: [
-			// {
-			// 	urlPattern: 'https://cdn.contentful.com/.*',
-			// 	method: 'GET',
-			// 	strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
-			// },
+			{
+				urlPattern: 'https://cdn.contentful.com/.*',
+				method: 'GET',
+				strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
+			},
 			{
 				urlPattern: 'https://fonts.gstatic.com/.*',
 				handler: 'cacheFirst',
@@ -127,7 +127,7 @@ export default {
 	vue: {
 		config: {
 			productionTip: false,
-			devtools: true,
+			devtools: false,
 		},
 	},
 	// 	env: {

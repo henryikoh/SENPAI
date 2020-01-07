@@ -6,6 +6,13 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _67e433b7 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 const _1f058e06 = () => interopDefault(import('../pages/_category/_slug.vue' /* webpackChunkName: "pages/_category/_slug" */))
 
+// TODO: remove in Nuxt 3
+const emptyFn = () => {}
+const originalPush = Router.prototype.push
+Router.prototype.push = function push (location, onComplete = emptyFn, onAbort) {
+  return originalPush.call(this, location, onComplete, onAbort)
+}
+
 Vue.use(Router)
 
 export const routerOptions = {

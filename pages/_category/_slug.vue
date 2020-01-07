@@ -175,7 +175,7 @@ export default {
 				{
 					hid: 'og:image',
 					name: 'og:image',
-					content: this.post.fields.hero.fields.file.url,
+					content: ' https:'+this.post.fields.hero.fields.file.url,
 				},
 				{
 					hid: 'og:url',

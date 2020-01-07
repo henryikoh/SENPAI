@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div v-if="!loading">
 		<MainNav :mobilemenu="showMobileMenu" :showlogo="showlogo" />
 		<Logo />
 		<Landing :featured="featured" />
@@ -1482,6 +1482,7 @@ export default {
 			scrolled: false,
 			showlogo: false,
 			showMobileMenu: false,
+			loading: true
 		}
 	},
 	async asyncData({ env }) {
@@ -1511,6 +1512,9 @@ export default {
 			// eslint-disable-next-line nuxt/no-globals-in-created
 			window.addEventListener('scroll', this.handleScroll)
 			Vue.use(VueTypedJs)
+			 this.$nextTick(function () {
+           this.loading = false
+       })
 		}
 	},
 	mounted() {

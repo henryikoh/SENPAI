@@ -1510,10 +1510,11 @@ export default {
 		if (process.browser) {
 			// eslint-disable-next-line nuxt/no-globals-in-created
 			window.addEventListener('scroll', this.handleScroll)
+			Vue.use(VueTypedJs)
 		}
 	},
 	mounted() {
-		Vue.use(VueTypedJs)
+		
 	},
 	destroyed() {
 		if (process.browser) {

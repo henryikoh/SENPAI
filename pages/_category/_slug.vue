@@ -165,7 +165,7 @@ export default {
 				{
 					hid: 'og:title',
 					name: 'og:title',
-					content: this.post.fields.title
+					content: this.post.fields.title,
 				},
 				{
 					hid: 'og:description',
@@ -175,23 +175,22 @@ export default {
 				{
 					hid: 'og:image',
 					name: 'og:image',
-					content: this.post.fields.hero.fields.file.url
+					content: this.post.fields.hero.fields.file.url,
 				},
 				{
 					hid: 'og:url',
 					name: 'og:url',
-					content: 'https://www.thinksenpai.com/'+this.post.fields.type+'/'+this.post.fields.slug
-
+					content:
+						'https://www.thinksenpai.com/' +
+						this.post.fields.type +
+						'/' +
+						this.post.fields.slug,
 				},
 				{
 					hid: 'twitter:card',
 					name: 'twitter:card',
-					content: 'summary_large_image'
-				}
-			
-
-
-
+					content: 'summary_large_image',
+				},
 			],
 		}
 	},
@@ -554,6 +553,5 @@ export default {
 
 		float: right;
 	}
-
 }
 </style>

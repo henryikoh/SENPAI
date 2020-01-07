@@ -29,25 +29,25 @@ export default {
 			{
 				hid: 'og:title',
 				name: 'og:title',
-				content: 'SENPAI | A Social Impact Design Company in Lagos, Nigeria'
+				content: 'SENPAI | A Social Impact Design Company in Lagos, Nigeria',
 			},
 			{
 				hid: 'og:description',
 				name: 'og:description',
-				content: 'Senpai is a social impact design company, harnessing the creative potential of youths in africa to design and develop sustainable solutions to complex social problems.',
+				content:
+					'Senpai is a social impact design company, harnessing the creative potential of youths in africa to design and develop sustainable solutions to complex social problems.',
 			},
-			
+
 			{
 				hid: 'og:url',
 				name: 'og:url',
-				content: 'https://www.thinksenpai.com/'
-
+				content: 'https://www.thinksenpai.com/',
 			},
 			{
 				hid: 'twitter:card',
 				name: 'twitter:card',
-				content: 'summary_large_image'
-			}
+				content: 'summary_large_image',
+			},
 		],
 		link: [
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
@@ -122,7 +122,6 @@ export default {
 		/*
 		 ** You can extend webpack config here
 		 */
-	
 	},
 	vue: {
 		config: {

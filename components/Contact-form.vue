@@ -21,10 +21,10 @@
 					<span class="typing"></span>
 				</p>
 			</vue-typed-js>
-			<a href="#" @click.prevent="showform">contact us</a>
+			<a @click.prevent="showform" href="#">contact us</a>
 		</div>
 		<transition name="blur">
-			<div v-show="modal" ref="form" class="form-modal" @click="hideform">
+			<div ref="form" v-show="modal" @click="hideform" class="form-modal">
 				<transition>
 					<div v-show="form" class="form">
 						<form

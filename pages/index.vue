@@ -780,7 +780,9 @@
 						</a>
 					</h2>
 					<p>
-						Design 101 is an online remote design training program, running on a free and paid model and has impacted over 600 youths with a fundamental understanding of design. 
+						Design 101 is an online remote design training program, running on a
+						free and paid model and has impacted over 600 youths with a
+						fundamental understanding of design.
 					</p>
 				</li>
 				<li class="program">
@@ -794,7 +796,9 @@
 						</a>
 					</h2>
 					<p>
-					The Senpai talents are specially trained members of the collective who get to work with our partner organizations/clients on contract based opportunities and on in-house ideas with the core team.
+						The Senpai talents are specially trained members of the collective
+						who get to work with our partner organizations/clients on contract
+						based opportunities and on in-house ideas with the core team.
 					</p>
 				</li>
 			</ul>
@@ -1462,12 +1466,6 @@ import Contact from '~/components/Contact-form.vue'
 import Footer from '~/components/Footer.vue'
 import client from '~/plugins/contentful'
 
-
-
-
-
-  
-
 // const client = createClient()
 
 export default {
@@ -1514,9 +1512,9 @@ export default {
 			window.addEventListener('scroll', this.handleScroll)
 		}
 	},
-	mounted(){
+	mounted() {
 		Vue.use(VueTypedJs)
-	}, 
+	},
 	destroyed() {
 		if (process.browser) {
 			window.removeEventListener('scroll', this.handleScroll)

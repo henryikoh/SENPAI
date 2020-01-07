@@ -14,13 +14,40 @@ export default {
 	/*
 	 ** Headers of the page
 	 */
-	mode: 'spa',
+	// mode: 'ssr',
 	head: {
 		title: 'SENPAI | A Social Impact Design Company in Lagos, Nigeria',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
+			{
+				hid: 'description',
+				name: 'description',
+				content:
+					'Senpai is a social impact design company, harnessing the creative potential of youths in africa to design and develop sustainable solutions to complex social problems.',
+			},
+			{
+				hid: 'og:title',
+				name: 'og:title',
+				content: 'SENPAI | A Social Impact Design Company in Lagos, Nigeria'
+			},
+			{
+				hid: 'og:description',
+				name: 'og:description',
+				content: 'Senpai is a social impact design company, harnessing the creative potential of youths in africa to design and develop sustainable solutions to complex social problems.',
+			},
 			
+			{
+				hid: 'og:url',
+				name: 'og:url',
+				content: 'https://www.thinksenpai.com/'
+
+			},
+			{
+				hid: 'twitter:card',
+				name: 'twitter:card',
+				content: 'summary_large_image'
+			}
 		],
 		link: [
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },

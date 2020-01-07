@@ -1450,8 +1450,9 @@
 
 <script>
 import Vue from 'vue'
-import VueTypedJs from 'vue-typed-js'
+
 import axios from 'axios'
+import VueTypedJs from 'vue-typed-js'
 
 import MainNav from '~/components/MainNav-Bar.vue'
 import Logo from '~/components/Logo.vue'
@@ -1461,7 +1462,11 @@ import Contact from '~/components/Contact-form.vue'
 import Footer from '~/components/Footer.vue'
 import client from '~/plugins/contentful'
 
-Vue.use(VueTypedJs)
+
+
+
+
+  
 
 // const client = createClient()
 
@@ -1509,6 +1514,9 @@ export default {
 			window.addEventListener('scroll', this.handleScroll)
 		}
 	},
+	mounted(){
+		Vue.use(VueTypedJs)
+	}, 
 	destroyed() {
 		if (process.browser) {
 			window.removeEventListener('scroll', this.handleScroll)

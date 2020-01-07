@@ -1,7 +1,7 @@
 <template>
 	<nav class="navi">
 		<transition name="logo">
-			<div v-if="showlogo" class="logo2">
+			<div v-show="showlogo" class="logo2">
 				<nuxt-link style="display:block" to="/">
 					<svg
 						viewBox="0 0 195 175"
@@ -59,7 +59,7 @@
 			<div class="hamburger"><div></div></div>
 		</div>
 		<transition name="mob-menu">
-			<div v-if="menuclick" class="mob-menu">
+			<div v-show="menuclick" class="mob-menu">
 				<ul class="menu2">
 					<li class="cta-btn">
 						<a target="_blank" href="https://anchor.fm/designforgood">

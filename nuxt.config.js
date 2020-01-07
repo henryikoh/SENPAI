@@ -14,7 +14,7 @@ export default {
 	/*
 	 ** Headers of the page
 	 */
-	mode: 'universal',
+	mode: 'spa',
 	head: {
 		title: 'SENPAI | A Social Impact Design Company in Lagos, Nigeria',
 		meta: [

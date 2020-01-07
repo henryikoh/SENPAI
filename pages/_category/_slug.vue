@@ -181,10 +181,7 @@ export default {
 					hid: 'og:url',
 					name: 'og:url',
 					content:
-						'https://www.thinksenpai.com/' +
-						this.post.fields.type +
-						'/' +
-						this.post.fields.slug,
+						'https://www.thinksenpai.com/'
 				},
 				{
 					hid: 'twitter:card',

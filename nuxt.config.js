@@ -122,14 +122,7 @@ export default {
 		/*
 		 ** You can extend webpack config here
 		 */
-	extend (config, ctx) {
-     
-
-    postcss: [
-      require('autoprefixer')({
-        browsers: ['> 5%']
-      })
-    ]
+	
 	},
 	vue: {
 		config: {

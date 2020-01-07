@@ -180,7 +180,7 @@ export default {
 				{
 					hid: 'og:url',
 					name: 'og:url',
-					content: 'https://www.thinksenpai.com/'
+					content: 'https://www.thinksenpai.com/'+this.post.fields.type+'/'+this.post.fields.slug
 
 				},
 				{
@@ -554,6 +554,6 @@ export default {
 
 		float: right;
 	}
-	
+
 }
 </style>

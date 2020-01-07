@@ -33,7 +33,7 @@ let router
 // Try to rehydrate SSR data from window
 const NUXT = window.__NUXT__ || {}
 
-Object.assign(Vue.config, {"productionTip":false,"devtools":true,"silent":false,"performance":true})
+Object.assign(Vue.config, {"productionTip":false,"devtools":false,"silent":false,"performance":true})
 
 const logs = NUXT.logs || []
   if (logs.length > 0) {
@@ -679,11 +679,6 @@ async function mountApp (__app) {
 
   // Create Vue instance
   const _app = new Vue(app)
-
-  // Load layout
-  const layout = NUXT.layout || 'default'
-  await _app.loadLayout(layout)
-  _app.setLayout(layout)
 
   // Mounts Vue app to DOM element
   const mount = () => {

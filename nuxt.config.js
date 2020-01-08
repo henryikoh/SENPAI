@@ -48,6 +48,9 @@ export default {
 				name: 'twitter:card',
 				content: 'summary_large_image',
 			},
+			{
+        name:"apple-mobile-web-app-status-bar-style", content:"default"
+      }
 		],
 		link: [
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },

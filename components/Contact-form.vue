@@ -31,7 +31,7 @@
 							name="contact"
 							method="POST"
 							data-netlify="true"
-							netlify-honeypot="bot-field"
+							data-netlify-honeypot="bot-field"
 						>
 							<h1>Tell us about your crazy idea</h1>
 							<!-- <p>fill this form and we would get back to you</p> -->
@@ -39,6 +39,7 @@
 							<div>
 								<div class="form-group">
 									<input
+									name="email"
 										type="email"
 										class="form-control"
 										placeholder="Enter email address"
@@ -46,6 +47,7 @@
 								</div>
 								<div class="form-group">
 									<input
+									name="name"
 										type="text"
 										class="form-control"
 										placeholder="Whats your name?"
@@ -53,6 +55,7 @@
 								</div>
 								<div class="form-group">
 									<input
+									name="company-name"
 										type="text"
 										class="form-control"
 										placeholder="Whats your company name?"
@@ -60,8 +63,9 @@
 								</div>
 								<div class="form-group2">
 									<textarea
+									name="message"
 										id="subject"
-										name="subject"
+									
 										placeholder="Whats on your mind?"
 										style="height:200px"
 									></textarea>

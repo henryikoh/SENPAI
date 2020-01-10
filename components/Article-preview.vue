@@ -14,7 +14,7 @@
 			<div class="desc">
 				<span>
 					<a href="#" class="btn1">
-						Designing a commnuity driven design company The senpai collective
+						Designing a commnuity driven design company
 					</a>
 				</span>
 			</div>

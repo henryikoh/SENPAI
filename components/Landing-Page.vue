@@ -153,23 +153,52 @@
 				</div>
 			</div>
 			<div class="second-post">
+				<nuxt-link
+					:to="{
+						name: 'category-slug',
+						params: {
+							category: featured[1].fields.type,
+							slug: featured[1].fields.slug,
+						},
+					}"
+				>
+				
 				<div class="feature-img">
-					<div class="img feature-img-bck"></div>
+					<div 	:style="{
+								backgroundImage:
+									'url(' + featured[1].fields.hero.fields.file.url + ')',
+							}" class="img feature-img-bck"></div>
 				</div>
+				</nuxt-link>
 				<!-- <img src="/hg.jpg" alt=""> -->
 				<div class="border">
 					<div class="type">
-						CASE STUDY
-						<span class="tags">
-							SENPAI
-						</span>
+					{{ featured[1].fields.type.toUpperCase() }}
+						<template v-if="featured[1].fields.type.toUpperCase() === 'BLOG'">
+							<span v-if="featured[1].fields.author" class="tags">
+								{{ featured[1].fields.author.fields.name.toUpperCase() }}
+							</span>
+						</template>
+						<template v-else>
+							<span v-if="featured[1].fields.client" class="tags">
+								{{ featured[1].fields.client }}
+							</span>
+						</template>
 					</div>
 					<div class="desc">
 						<span>
-							<a href="#" class="btn1">
-								Designing a commnuity driven design company The senpai
-								collective
-							</a>
+							<nuxt-link
+								:to="{
+									name: 'category-slug',
+									params: {
+										category: featured[1].fields.type,
+										slug: featured[1].fields.slug,
+									},
+								}"
+								class="btn1"
+							>
+								{{ featured[1].fields.title }}
+							</nuxt-link>
 						</span>
 					</div>
 				</div>

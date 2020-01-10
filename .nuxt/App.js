@@ -7,13 +7,14 @@ import {
 } from './utils'
 
 import NuxtLoading from './components/nuxt-loading.vue'
+import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import _6f6c098b from '../layouts/default.vue'
 
 const layouts = { "_default": _6f6c098b }
 
 export default {
-  head: {"title":"SENPAI | A Social Impact Design Company in Lagos, Nigeria","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Senpai is a social impact design company, harnessing the creative potential of youths in africa to design and develop sustainable solutions to complex social problems."},{"hid":"og:title","name":"og:title","content":"SENPAI | A Social Impact Design Company in Lagos, Nigeria"},{"hid":"og:description","name":"og:description","content":"Senpai is a social impact design company, harnessing the creative potential of youths in africa to design and develop sustainable solutions to complex social problems."},{"hid":"og:url","name":"og:url","content":"https:\u002F\u002Fwww.thinksenpai.com\u002F"},{"hid":"twitter:card","name":"twitter:card","content":"summary_large_image"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"senpai"},{"hid":"author","name":"author","content":"Henry Ikoh"},{"hid":"theme-color","name":"theme-color","content":"#41c0bf"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"senpai"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.png"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Montserrat:300,400,500,700"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.f62e6fcc.json"},{"rel":"shortcut icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_64.f2afd1.png"},{"rel":"apple-touch-icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_512.f2afd1.png","sizes":"512x512"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
+  head: {"title":"SENPAI | A Social Impact Design Company in Lagos, Nigeria","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Senpai is a social impact design company, harnessing the creative potential of youths in africa to design and develop sustainable solutions to complex social problems."},{"hid":"og:title","name":"og:title","content":"SENPAI | A Social Impact Design Company in Lagos, Nigeria"},{"hid":"og:description","name":"og:description","content":"Senpai is a social impact design company, harnessing the creative potential of youths in africa to design and develop sustainable solutions to complex social problems."},{"hid":"og:url","name":"og:url","content":"https:\u002F\u002Fwww.thinksenpai.com\u002F"},{"hid":"twitter:card","name":"twitter:card","content":"summary_large_image"},{"name":"apple-mobile-web-app-status-bar-style","content":"default"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"senpai"},{"hid":"author","name":"author","content":"Henry Ikoh"},{"hid":"theme-color","name":"theme-color","content":"#41c0bf"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"senpai"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.png"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Montserrat:300,400,500,700"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.f62e6fcc.json"},{"rel":"shortcut icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_64.f2afd1.png"},{"rel":"apple-touch-icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_512.f2afd1.png","sizes":"512x512"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
 
   render (h, props) {
     const loadingEl = h('NuxtLoading', { ref: 'loading' })
@@ -47,7 +48,7 @@ export default {
       }
     }, [
       loadingEl,
-
+      h(NuxtBuildIndicator),
       transitionEl
     ])
   },
@@ -157,6 +158,10 @@ export default {
     },
 
     setLayout (layout) {
+      if(layout && typeof layout !== 'string') {
+        throw new Error('[nuxt] Avoid using non-string value as layout property.')
+      }
+
       if (!layout || !layouts['_' + layout]) {
         layout = 'default'
       }

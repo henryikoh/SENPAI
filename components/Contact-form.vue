@@ -29,7 +29,7 @@
 					<div v-show="form" class="form">
 						<form
 							name="contact"
-							method="post"
+							method="POST"
 							data-netlify="true"
 							netlify-honeypot="bot-field"
 						>

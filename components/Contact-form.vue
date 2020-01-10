@@ -67,7 +67,7 @@
 									></textarea>
 								</div>
 							</div>
-							<button class="button">Submit</button>
+							<button type="submit" class="button">Submit</button>
 						</form>
 						<div class="social-cta">
 							<ul class="social c2alinks">

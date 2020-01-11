@@ -29,7 +29,7 @@
 					<div v-show="form" class="form">
 						<form
 							name="contact"
-							action="POST"
+							method="post"
 							data-netlify="true"
 							data-netlify-honeypot="bot-field"
 						>
@@ -64,7 +64,7 @@
 								<div class="form-group2">
 									<textarea
 									name="message"
-										id="subject"
+										
 									
 										placeholder="Whats on your mind?"
 										style="height:200px"

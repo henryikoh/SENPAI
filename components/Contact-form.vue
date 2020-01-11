@@ -32,6 +32,7 @@
 							method="POST"
 							data-netlify="true"
 							data-netlify-honeypot="bot-field"
+							action="/"
 						>
 							<h1>Tell us about your crazy idea</h1>
 							<!-- <p>fill this form and we would get back to you</p> -->

@@ -29,14 +29,13 @@
 					<div v-show="form" class="form">
 						<form
 							name="contact"
-							method="POST"
+							action="POST"
 							data-netlify="true"
 							data-netlify-honeypot="bot-field"
-							action="/"
 						>
 							<h1>Tell us about your crazy idea</h1>
 							<!-- <p>fill this form and we would get back to you</p> -->
-							<input type="hidden" name="contact" />
+							<input type="hidden" name="bot-field" />
 							<div>
 								<div class="form-group">
 									<input

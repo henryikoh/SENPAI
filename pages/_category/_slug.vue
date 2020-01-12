@@ -175,7 +175,7 @@ export default {
 				{
 					hid: 'og:image',
 					name: 'og:image',
-					content: ' https:'+this.post.fields.hero.fields.file.url,
+					content: ' https:' + this.post.fields.hero.fields.file.url,
 				},
 				{
 					hid: 'og:url',
@@ -205,8 +205,8 @@ export default {
 					post: entries.items[0],
 				}
 			})
-			.catch((err)=>{
-			return err
+			.catch(err => {
+				return err
 			})
 	},
 }

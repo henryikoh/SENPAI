@@ -35,11 +35,11 @@
 						>
 							<h1>Tell us about your crazy idea</h1>
 							<!-- <p>fill this form and we would get back to you</p> -->
-							 <input type="hidden" name="form-name" value="contact" />
+							<input type="hidden" name="form-name" value="contact" />
 							<div>
 								<div class="form-group">
 									<input
-									name="email"
+										name="email"
 										type="email"
 										class="form-control"
 										placeholder="Enter email address"
@@ -47,7 +47,7 @@
 								</div>
 								<div class="form-group">
 									<input
-									name="name"
+										name="name"
 										type="text"
 										class="form-control"
 										placeholder="Whats your name?"
@@ -55,7 +55,7 @@
 								</div>
 								<div class="form-group">
 									<input
-									name="company-name"
+										name="company-name"
 										type="text"
 										class="form-control"
 										placeholder="Whats your company name?"
@@ -63,9 +63,7 @@
 								</div>
 								<div class="form-group2">
 									<textarea
-									name="message"
-										
-									
+										name="message"
 										placeholder="Whats on your mind?"
 										style="height:200px"
 									></textarea>

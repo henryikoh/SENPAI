@@ -1482,7 +1482,7 @@ export default {
 			scrolled: false,
 			showlogo: false,
 			showMobileMenu: false,
-			loading: true
+			loading: true,
 		}
 	},
 	async asyncData({ env }) {
@@ -1512,14 +1512,12 @@ export default {
 			// eslint-disable-next-line nuxt/no-globals-in-created
 			window.addEventListener('scroll', this.handleScroll)
 			Vue.use(VueTypedJs)
-			 this.$nextTick(function () {
-           this.loading = false
-       })
+			this.$nextTick(function() {
+				this.loading = false
+			})
 		}
 	},
-	mounted() {
-		
-	},
+	mounted() {},
 	destroyed() {
 		if (process.browser) {
 			window.removeEventListener('scroll', this.handleScroll)

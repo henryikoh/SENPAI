@@ -162,18 +162,20 @@
 						},
 					}"
 				>
-				
-				<div class="feature-img">
-					<div 	:style="{
+					<div class="feature-img">
+						<div
+							:style="{
 								backgroundImage:
 									'url(' + featured[1].fields.hero.fields.file.url + ')',
-							}" class="img feature-img-bck"></div>
-				</div>
+							}"
+							class="img feature-img-bck"
+						></div>
+					</div>
 				</nuxt-link>
 				<!-- <img src="/hg.jpg" alt=""> -->
 				<div class="border">
 					<div class="type">
-					{{ featured[1].fields.type.toUpperCase() }}
+						{{ featured[1].fields.type.toUpperCase() }}
 						<template v-if="featured[1].fields.type.toUpperCase() === 'BLOG'">
 							<span v-if="featured[1].fields.author" class="tags">
 								{{ featured[1].fields.author.fields.name.toUpperCase() }}

@@ -49,8 +49,9 @@ export default {
 				content: 'summary_large_image',
 			},
 			{
-        name:"apple-mobile-web-app-status-bar-style", content:"default"
-      }
+				name: 'apple-mobile-web-app-status-bar-style',
+				content: 'default',
+			},
 		],
 		link: [
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
@@ -125,7 +126,6 @@ export default {
 		/*
 		 ** You can extend webpack config here
 		 */
-		
 	},
 	vue: {
 		config: {
@@ -161,7 +161,7 @@ export default {
 			})
 		},
 		minify: {
-			collapseWhitespace: false
-		}
+			collapseWhitespace: false,
+		},
 	},
 }

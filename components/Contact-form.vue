@@ -42,7 +42,7 @@
 										name="email"
 										type="email"
 										class="form-control"
-										placeholder="Enter email address"
+										
 									/>
 								</div>
 								<div class="form-group">
@@ -50,7 +50,7 @@
 										name="name"
 										type="text"
 										class="form-control"
-										placeholder="Whats your name?"
+									
 									/>
 								</div>
 								<div class="form-group">
@@ -58,13 +58,13 @@
 										name="company-name"
 										type="text"
 										class="form-control"
-										placeholder="Whats your company name?"
+									
 									/>
 								</div>
 								<div class="form-group2">
 									<textarea
 										name="message"
-										placeholder="Whats on your mind?"
+									
 										style="height:200px"
 									></textarea>
 								</div>

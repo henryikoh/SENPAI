@@ -40,33 +40,37 @@
 							<div>
 								<div class="form-group">
 									<input
-										name="email"
+										
 										type="email"
 										class="form-control"
 										placeholder="Enter email address"
+										name="email"
 									/>
 								</div>
 								<div class="form-group">
 									<input
-										name="name"
+									
 										type="text"
 										class="form-control"
 										placeholder="Whats your name?"
+											name="name"
 									/>
 								</div>
 								<div class="form-group">
 									<input
-										name="company-name"
+										
 										type="text"
 										class="form-control"
 										placeholder="Whats your company name?"
+										name="company-name"
 									/>
 								</div>
 								<div class="form-group2">
 									<textarea
-										name="message"
+										
 										placeholder="Whats on your mind?"
 										style="height:200px"
+										name="message"
 									></textarea>
 								</div>
 							</div>

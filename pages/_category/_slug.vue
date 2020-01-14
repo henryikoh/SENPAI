@@ -320,7 +320,7 @@ export default {
 		font-family: Montserrat, Helvetica, Arial, sans-serif;
 		/* font-weight: 700; */
 		font-style: normal;
-		font-size: 18px;
+		font-size: 17px;
 		color: rgba(0, 0, 0, 0.84);
 		font-stretch: normal;
 		line-height: normal;

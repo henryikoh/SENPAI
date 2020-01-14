@@ -28,7 +28,7 @@
 				<transition>
 					<div v-show="form" class="form">
 						<form
-							name="contact-us"
+							name="contact"
 							method="post"
 							data-netlify="true"
 							data-netlify-honeypot="bot-field"

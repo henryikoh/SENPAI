@@ -136,8 +136,9 @@
 				</div>
 			</div>
 
-			<div class="white-space"></div>
+			
 		</div>
+		<Footer />
 	</div>
 </template>
 
@@ -145,11 +146,13 @@
 import VueMarkdown from 'vue-markdown'
 import MainNav from '~/components/MainNav-Bar.vue'
 import client from '~/plugins/contentful'
+import Footer from '~/components/Footer.vue'
 
 export default {
 	components: {
 		MainNav,
 		VueMarkdown,
+		Footer,
 	},
 	head() {
 		return {

@@ -488,7 +488,7 @@ export default {
 		color: rgba(0, 0, 0, 0.84);
 		font-stretch: normal;
 		line-height: normal;
-		text-align: justify;
+		text-align: left;
 		letter-spacing: normal;
 	}
 

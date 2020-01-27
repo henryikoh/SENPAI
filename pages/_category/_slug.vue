@@ -135,7 +135,7 @@
 					SideBar
 				</div>
 			</div>
-
+			<div class="white-space"></div>
 			
 		</div>
 		<Footer />

@@ -25,7 +25,7 @@
 				<div class="cirle">
 					We design and build
 					<span class="typing"></span>
-					that tackle social problems
+					that make the world a better place
 				</div>
 			</vue-typed-js>
 			<!-- <div class="cirle">
@@ -33,7 +33,7 @@
 			</div> -->
 			<h1>
 				At the core of Senpai is an impact-driven design studio harnessing the
-				creative potential of youths in Africa to design and develop sustainable
+				creative potential of youths in Africa to design and develop innovative
 				solutions to complex social problems.♻️🌍
 			</h1>
 			<div>

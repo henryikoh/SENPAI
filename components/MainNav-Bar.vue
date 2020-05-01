@@ -267,6 +267,7 @@ export default {
 		list-style: none;
 		display: inline-block;
 		width: 100%;
+		margin-bottom: 5px;
 	}
 	nav ul li a {
 		display: inline-block;

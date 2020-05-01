@@ -136,7 +136,6 @@
 				</div>
 			</div>
 			<div class="white-space"></div>
-			
 		</div>
 		<Footer />
 	</div>
@@ -334,12 +333,12 @@ export default {
 	.main h1 {
 		margin-top: 30px;
 		font-size: 30px;
-		text-align: left
+		text-align: left;
 	}
 
 	.main h3 {
 		margin-top: 15px;
-		text-align: left
+		text-align: left;
 	}
 
 	.main blockquote {

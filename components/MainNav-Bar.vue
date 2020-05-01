@@ -46,7 +46,7 @@
 				</a>
 			</li>
 			<li class="cta-btn">
-				<a href="https://www.thinksenpai.com/design101/">Design 101</a>
+				<a href="https://www.senpaiacademy.org/" target="_blank">Senpai Academy</a>
 			</li>
 			<li class="cta-btn">
 				<nuxt-link to="/blog">Blog</nuxt-link>
@@ -74,7 +74,7 @@
 						</a>
 					</li>
 					<li class="cta-btn">
-						<a href="https://www.thinksenpai.com/design101/">Design 101</a>
+						<a href="https://www.senpaiacademy.org/" target="_blank">Senpai Academy</a>
 					</li>
 					<li class="cta-btn">
 						<nuxt-link to="/blog">Blog</nuxt-link>

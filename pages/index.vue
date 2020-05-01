@@ -770,19 +770,17 @@
 					</p>
 				</li>
 				<li class="program">
-					<img src="/design101.png" alt="" />
+					<img src="/Academy.png" alt="" />
 					<h2 class="cta-btn">
 						<a
 							target="_blank"
-							href="https://mailchi.mp/3627159ec8c7/senpaicollective"
+							href="https://www.senpaiacademy.org/"
 						>
-							Design 101
+							Senpai Academy
 						</a>
 					</h2>
 					<p>
-						Design 101 is an online remote design training program, running on a
-						free and paid model and has impacted over 600 youths with a
-						fundamental understanding of design.
+						Senpai Academy is an innovative design school that teaches creative people how to harness their creative potential through good design, technology, and social entrepreneurship
 					</p>
 				</li>
 				<li class="program">

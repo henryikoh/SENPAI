@@ -1567,7 +1567,7 @@ export default {
 		line-height: normal;
 		letter-spacing: normal;
 		color: #41c0bf;
-		height: 125px;
+		height: 130px;
 	}
 	.we-do h1 {
 		font-family: Montserrat;

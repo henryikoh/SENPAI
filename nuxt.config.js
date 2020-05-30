@@ -118,9 +118,6 @@ export default {
 				method: 'GET',
 				strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
 			},
-			{
-				urlPattern: 'https://api.instagram.com/.*',
-			},
 		],
 	},
 	build: {

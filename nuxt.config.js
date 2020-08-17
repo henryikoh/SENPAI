@@ -109,6 +109,7 @@ export default {
 		runtimeCaching: [
 			{
 				urlPattern: 'https://cdn.contentful.com/.*',
+				handler: 'staleWhileRevalidate',
 				method: 'GET',
 				strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
 			},

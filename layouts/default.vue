@@ -27,6 +27,10 @@ html ::selection {
 	background: #41c0bf;
 	color: white;
 }
+*{
+	/* transition: all .5s cubic-bezier(0.19, 1, 0.22, 1); */
+
+}
 
 .wrapper {
 	margin: auto;

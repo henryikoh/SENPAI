@@ -884,21 +884,6 @@
 				</li>
 			</ul>
 		</div>
-		<div class="instagram">
-			<ul>
-				<li v-for="posts in instagram.data" :key="posts.id">
-					<a :href="posts.link" target="_blanck">
-						<!-- <img :src="posts.images.standard_resolution.url" alt=""> -->
-						<div
-							:style="{
-								backgroundImage:
-									'url(' + posts.images.standard_resolution.url + ')',
-							}"
-						></div>
-					</a>
-				</li>
-			</ul>
-		</div>
 		<div class="closer wrapper">
 			<div class="illust">
 				<svg
@@ -1453,7 +1438,7 @@
 <script>
 import Vue from 'vue'
 
-import axios from 'axios'
+// import axios from 'axios'
 import VueTypedJs from 'vue-typed-js'
 
 import MainNav from '~/components/MainNav-Bar.vue'
@@ -1499,11 +1484,11 @@ export default {
 		// 	featured: post.items,
 		// }
 
-		const ip = await axios.get(
-			'https://api.instagram.com/v1/users/self/media/recent?access_token=2105340134.1677ed0.52d17f9dd46a42d3851e48e4688f31e6&count=10',
-		)
+		// const ip = await axios.get(
+		// 	'https://api.instagram.com/v1/users/self/media/recent?access_token=2105340134.1677ed0.52d17f9dd46a42d3851e48e4688f31e6&count=10',
+		// )
 
-		return { featured: post.items, instagram: ip.data }
+		return { featured: post.items }
 	},
 	created() {
 		if (process.browser) {

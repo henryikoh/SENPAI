@@ -404,6 +404,32 @@ export default {
 	}
 }
 @media screen and (min-width: 768px) {
+	.back-btn {
+		position: relative;
+		padding-left: 9px;
+	}
+	.back-btn::before {
+		content: ' ';
+		height: 0;
+		position: absolute;
+		width: 0;
+		top: 3px;
+		left: -11px;
+		border: 8px solid transparent;
+		border-right-color: #41c0bf;
+	}
+	.back-btn a {
+		text-decoration: none;
+		font-family: Montserrat, Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #525252;
+		text-decoration: none;
+	}
 	.title h1 {
 		font-family: Montserrat, Helvetica, Arial, sans-serif;
 		font-size: 4vw;

@@ -81,7 +81,7 @@ export default {}
 	}
 	.border {
 		border-bottom: solid 1px #525252;
-		height: 140px;
+		height: 110px;
 	}
 	.second-post .img {
 		background-image: url(/sim.jpg);
@@ -141,7 +141,7 @@ export default {}
 	}
 	.border {
 		border-bottom: solid 1px #525252;
-		height: 180px;
+		height: 150px;
 	}
 }
 </style>

@@ -503,7 +503,7 @@ export default {
 		margin-top: 20px;
 	}
 	.main {
-		width: 70%;
+		width: 65%;
 		/* position: relative; */
 		display: inline-block;
 		font-family: Montserrat, Helvetica, Arial, sans-serif;
@@ -513,7 +513,7 @@ export default {
 		color: rgba(0, 0, 0, 0.84);
 		font-stretch: normal;
 		line-height: normal;
-		text-align: left;
+		text-align: justify;
 		letter-spacing: normal;
 	}
 
@@ -535,9 +535,9 @@ export default {
 	}
 
 	.main p {
-		margin-top: 15px;
-		line-height: 1.4;
-		text-align: left;
+	    margin-top: 22px;
+    line-height: 1.6;
+		
 	}
 
 	.main ol {

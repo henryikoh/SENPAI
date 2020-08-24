@@ -521,6 +521,10 @@ export default {
 		margin-top: 30px;
 	}
 
+	.main h2 {
+		margin-top: 30px;
+	}
+
 	.main h3 {
 		margin-top: 15px;
 	}
@@ -535,7 +539,7 @@ export default {
 	}
 
 	.main p {
-	    margin-top: 22px;
+	    margin-top: 15px;
     line-height: 1.6;
 		
 	}

@@ -135,7 +135,7 @@
 					SideBar
 				</div>
 			</div>
-			<div class="white-space"></div>
+			<!-- <div class="white-space"></div> -->
 		</div>
 		<Footer />
 	</div>
@@ -313,7 +313,8 @@ export default {
 	}
 	.body {
 		position: relative;
-		margin-top: 20px;
+		margin-bottom: 50px;
+		
 	}
 	.main {
 		width: 100%;
@@ -334,6 +335,11 @@ export default {
 		margin-top: 30px;
 		font-size: 30px;
 		text-align: left;
+	}
+
+	.main h2 {
+		margin-top: 25px;
+		
 	}
 
 	.main h3 {
@@ -499,8 +505,9 @@ export default {
 		background-size: cover;
 	}
 	.body {
+		margin-top: 15px;
 		position: relative;
-		margin-top: 20px;
+			margin-bottom: 70px;
 	}
 	.main {
 		width: 65%;

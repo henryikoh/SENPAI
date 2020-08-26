@@ -333,13 +333,13 @@ export default {
 
 	.main h1 {
 		margin-top: 30px;
-		font-size: 30px;
+		font-size: 25px;
 		text-align: left;
 	}
 
 	.main h2 {
 		margin-top: 25px;
-		
+		font-size: 20px;
 	}
 
 	.main h3 {

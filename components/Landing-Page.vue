@@ -4,8 +4,7 @@
 			CREATING THE FUTURE
 		</h1>
 		<p>
-			Senpai is a social impact design company, building a state of
-			connectedness, trust and collaboration amongst creative youths in Africa.
+			Senpai is a social ecosystems design company, doing our part to make the world a better place through good design, technology, and a community of creatives.
 		</p>
 		<div class="cta-btn center">
 			<a
@@ -399,6 +398,7 @@ export default {
 		font-size: 22px;
 		text-align: center;
 		margin: auto;
+		    margin-top: 5px;
 	}
 	.social {
 		text-align: center;

@@ -24,7 +24,7 @@ export default {
 				hid: 'description',
 				name: 'description',
 				content:
-					'Senpai is a social impact design company, harnessing the creative potential of youths in africa to design and develop sustainable solutions to complex social problems.',
+					'Senpai is a social ecosystems design company, doing our part to make the world a better place through good design, technology, and a community of creatives.',
 			},
 			{
 				hid: 'og:title',
@@ -35,7 +35,7 @@ export default {
 				hid: 'og:description',
 				name: 'og:description',
 				content:
-					'Senpai is a social impact design company, harnessing the creative potential of youths in africa to design and develop sustainable solutions to complex social problems.',
+					'Senpai is a social ecosystems design company, doing our part to make the world a better place through good design, technology, and a community of creatives.',
 			},
 
 			{

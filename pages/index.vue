@@ -37,7 +37,7 @@
 				solutions to complex social problems.♻️🌍
 			</h1>
 			<div>
-				<h1 class="serv-hed">Our Experiese</h1>
+				<h1 class="serv-hed">Our Expertise</h1>
 				<div class="srvwrap">
 					<ul class="services">
 						<li>

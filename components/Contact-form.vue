@@ -21,7 +21,7 @@
 					<span class="typing"></span>
 				</p>
 			</vue-typed-js>
-			<a @click.prevent="showform" href="#">contact us</a>
+			<a target="_blanck"  href="mailto:hello@thinksenpai.com">contact us</a>
 		</div>
 		<transition name="blur">
 			<div ref="form" v-show="modal" @click="hideform" class="form-modal">

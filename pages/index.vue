@@ -24,8 +24,8 @@
 			>
 				<div class="cirle">
 					We design and build
-					<span class="typing"></span>
-					that make the world a better place
+					<span class="typing tp"></span>
+					that make the world a better place.
 				</div>
 			</vue-typed-js>
 			<!-- <div class="cirle">
@@ -1551,8 +1551,14 @@ export default {
 		font-stretch: normal;
 		line-height: normal;
 		letter-spacing: normal;
-		color: #41c0bf;
+		color: #525252;
 		/* height: 130px; */
+	}
+	.tp{
+		color:#41c0bf
+	}
+	.typed-cursor{
+		color: #41c0bf;
 	}
 	.we-do h1 {
 		font-family: Montserrat;
@@ -1918,9 +1924,15 @@ export default {
 		font-stretch: normal;
 		line-height: normal;
 		letter-spacing: normal;
-		color: #41c0bf;
+		color: #525252;
 		text-align: left;
 		width: 90%;
+	}
+		.tp{
+		color:#41c0bf
+	}
+	.typed-cursor{
+		color: #41c0bf;
 	}
 
 	/* .we-do div::before{

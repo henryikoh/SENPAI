@@ -37,7 +37,7 @@
 					We are always looking for passionate and creative people to join our
 					team
 				</p>
-				<button>See Jobs</button>
+				<a target="_blanch" href="https://www.notion.so/Join-Team-Senpai-d460ac6510034789b705016020f3319e">See Jobs</a>
 			</div>
 		</div>
 		<div class="signature wrapper">
@@ -174,12 +174,13 @@ export default {}
 		padding: 2px 0;
 		font-size: 20px;
 	}
-	.colm3 button {
+	.colm3 a {
 		color: white;
 		padding: 10px 15px;
 		border: solid 1px white;
 		background: none;
 		width: 100px;
+		text-decoration: none;
 	}
 	.signature {
 		text-align: center;
@@ -330,12 +331,13 @@ export default {}
 		margin-bottom: 22px;
 		padding: 2px 0;
 	}
-	.colm3 button {
+	.colm3 a {
 		color: white;
 		padding: 10px 15px;
 		border: solid 1px white;
 		background: none;
 		width: 100px;
+		text-decoration: none;
 	}
 	.signature {
 		text-align: center;

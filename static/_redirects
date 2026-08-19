@@ -1,0 +1,15 @@
+# thinksenpai.com has moved to senpaifutures.com.
+#
+# This site now exists only to forward. :splat carries the path across, so
+# /blog/what-is-a-social-enterprise lands on the same path on the new domain
+# rather than dumping every visitor on the homepage — path-preserving 301s are
+# what actually transfer ranking signals.
+#
+# The trailing ! forces the redirect even where a matching file exists. Without
+# it Netlify would serve the old generated page instead, because those files
+# are still in this build.
+#
+# 301 (permanent) is deliberate: it is the signal Google needs to move the
+# domain. Leave this in place for at least a year.
+
+/*  https://senpaifutures.com/:splat  301!
